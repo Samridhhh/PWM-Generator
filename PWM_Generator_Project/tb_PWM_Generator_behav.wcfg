@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_PWM_Generator_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_PWM_Generator" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="11.363973 us"></ZoomEndTime>
+      <Cursor1Time time="0.350000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="232"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/tb_PWM_Generator/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PWM_Generator/increase_duty" type="logic">
+      <obj_property name="ElementShortName">increase_duty</obj_property>
+      <obj_property name="ObjectShortName">increase_duty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PWM_Generator/decrease_duty" type="logic">
+      <obj_property name="ElementShortName">decrease_duty</obj_property>
+      <obj_property name="ObjectShortName">decrease_duty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PWM_Generator/PWM_OUT" type="logic">
+      <obj_property name="ElementShortName">PWM_OUT</obj_property>
+      <obj_property name="ObjectShortName">PWM_OUT</obj_property>
+   </wvobject>
+</wave_config>
